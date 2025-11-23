@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["src/components/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/constants/*": ["src/constants/*"],
+      "@/types/*": ["src/types/*"],
+      "@/lib/*": ["src/lib/*"],
+      "@/bot": ["bot/index.js"],
+      "@/bot/*": ["bot/*"]
+    }
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules", ".next"]
+}
