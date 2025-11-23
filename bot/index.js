@@ -73,6 +73,9 @@ let isConnected = false;
 let lastConnection = null;
 let currentQR = null;
 
+// Menyimpan state setiap pengguna
+const userState = {};
+
 // Simpan status terakhir
 let currentStatus = {
   isConnected: false,
