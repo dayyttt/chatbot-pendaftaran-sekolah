@@ -18,10 +18,17 @@ const MODEL_ID = "gemini-2.5-flash";
 // ================== SUMBER DATA ==================
 // pakai web kamu sendiri
 const SCHOOL_SOURCES = [
-  "https://smkglobin.sch.id/",       // beranda
-  "https://smkglobin.sch.id/profil", // contoh, sesuaikan dengan route Next.js kamu
-  "https://smkglobin.sch.id/ppdb",
+  "https://www.khoirulmuhlisin.my.id/",       // beranda
+  "https://www.khoirulmuhlisin.my.id/profil/", // contoh, sesuaikan dengan route Next.js kamu
+  "https://www.khoirulmuhlisin.my.id/kontak/",
   // tambah sendiri kalau ada halaman lain: /fasilitas, /ekstrakurikuler, dll
+"https://www.khoirulmuhlisin.my.id/jurusan",
+"https://www.khoirulmuhlisin.my.id/ekstrakurikuler",
+"https://www.khoirulmuhlisin.my.id/berita",
+"https://www.khoirulmuhlisin.my.id/galeri",
+"https://www.khoirulmuhlisin.my.id/guru",
+"https://www.khoirulmuhlisin.my.id/ppdb",
+"https://www.khoirulmuhlisin.my.id/kontak",
 ];
 
 let knowledgeBase = "";

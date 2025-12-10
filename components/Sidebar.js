@@ -17,7 +17,7 @@ export default function Sidebar() {
     <div className="fixed left-0 top-0 h-full w-64 bg-gray-800 text-white p-4">
       <div className="flex items-center space-x-2 p-4 mb-8">
         <div className="text-2xl">🤖</div>
-        <h1 className="text-xl font-bold">Admin Panel</h1>
+        <h1 className="text-xl font-bold">MinBot Globin</h1>
       </div>
       <nav>
         <ul className="space-y-2">

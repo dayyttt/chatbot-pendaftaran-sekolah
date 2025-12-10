@@ -4,6 +4,9 @@
 import "../app/globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
+//Import untuk nextauth
+import { SessionProvider } from "next-auth/react";
+
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { ToastContainer } from "react-toastify";

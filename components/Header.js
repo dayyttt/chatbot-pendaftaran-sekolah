@@ -1,9 +1,19 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { signOut, useSession } from 'next-auth/react';
+import { useRouter } from 'next/router';
 
 const API_URL = '/api/pendaftaran/terbaru'; // Endpoint untuk mengambil pendaftaran terbaru
 
 export default function Header({ title }) {
+  const { data: session } = useSession();
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    await signOut({ redirect: false });
+    router.push('/auth/login');
+  };
+
   const [isNotificationOpen, setIsNotificationOpen] = useState(false);
   const [pendaftaranTerbaru, setPendaftaranTerbaru] = useState([]);
   const [isLoading, setIsLoading] = useState(true);

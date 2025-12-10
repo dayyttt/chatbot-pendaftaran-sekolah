@@ -4,11 +4,11 @@ import Header from '../../components/Header';
 
 export default function Settings() {
   const [settings, setSettings] = useState({
-    schoolName: 'Sekolah Unggulan Terpadu',
-    schoolAddress: 'Jl. Pendidikan No. 123, Jakarta',
+    schoolName: 'SMK Globin',
+    schoolAddress: 'Jl. Cibeureum Tengah Rt. 06/01, Desa Sinar Sari, Kecamatan Dramaga, Kabupaten Bogor, Jawa Barat, kode pos 16680. ',
     adminEmail: 'admin@sekolah.sch.id',
     notificationEmail: 'notifikasi@sekolah.sch.id',
-    maxRegistration: 200,
+    maxRegistration: 150,
     registrationOpen: true,
   });
 
